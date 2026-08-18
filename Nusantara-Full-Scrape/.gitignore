@@ -1,0 +1,25 @@
+# Data hasil scraping (berat, tidak perlu di-track)
+/data/
+/full_output/
+/output/
+
+# Environment & credentials
+.env
+.env.local
+*.key
+*.pem
+
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
