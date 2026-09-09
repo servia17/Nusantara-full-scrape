@@ -1,6 +1,6 @@
 # Data hasil scraping (berat, tidak perlu di-track)
 /data/
-#/full_output/
+
 /output/
 
 # Environment & credentials
