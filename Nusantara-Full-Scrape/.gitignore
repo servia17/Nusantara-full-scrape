@@ -1,7 +1,7 @@
 # Data hasil scraping (berat, tidak perlu di-track)
 /data/
 
-/output/
+
 
 # Environment & credentials
 .env
