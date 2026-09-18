@@ -1,7 +1,46 @@
 const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
-const { randomUUID } = require('node:crypto');
+const { randomUUID, randomBytes, timingSafeEqual } = require('node:crypto');
+
+// --- Auth config -----------------------------------------------------------
+// Set these in your environment (Emergent dashboard / .env, NEVER hardcoded
+// in the source): ADMIN_EMAIL, ADMIN_PASSWORD, PARTNER_EMAIL, PARTNER_PASSWORD.
+// If they are not set, admin/partner login is disabled entirely rather than
+// falling back to an insecure default.
+const ACCOUNTS = [
+  process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD
+    ? { email: process.env.ADMIN_EMAIL.toLowerCase(), password: process.env.ADMIN_PASSWORD, role: 'admin', id: 'admin', name: 'Admin' }
+    : null,
+  process.env.PARTNER_EMAIL && process.env.PARTNER_PASSWORD
+    ? { email: process.env.PARTNER_EMAIL.toLowerCase(), password: process.env.PARTNER_PASSWORD, role: 'partner', id: 'partner', name: 'Partner' }
+    : null,
+].filter(Boolean);
+
+// In-memory session store: token -> { user, expiresAt }. Tokens are random
+// per login and expire after a few hours, instead of one fixed shared string.
+const sessions = new Map();
+const SESSION_TTL_MS = 8 * 60 * 60 * 1000; // 8 hours
+
+function safeEqual(a, b) {
+  const bufA = Buffer.from(String(a));
+  const bufB = Buffer.from(String(b));
+  if (bufA.length !== bufB.length) return false;
+  return timingSafeEqual(bufA, bufB);
+}
+function createSession(user) {
+  const token = randomBytes(32).toString('hex');
+  sessions.set(token, { user, expiresAt: Date.now() + SESSION_TTL_MS });
+  return token;
+}
+function sessionUser(req) {
+  const header = req.headers.authorization || '';
+  const token = header.startsWith('Bearer ') ? header.slice(7) : '';
+  const session = token && sessions.get(token);
+  if (!session) return null;
+  if (Date.now() > session.expiresAt) { sessions.delete(token); return null; }
+  return session.user;
+}
 
 const root = __dirname;
 const capture = path.join(root, 'full_output');
@@ -44,7 +83,6 @@ function body(req) {
     req.on('end', () => { try { resolve(raw ? JSON.parse(raw) : {}); } catch { reject(new Error('Invalid JSON body')); } });
   });
 }
-function authorized(req) { return req.headers.authorization === 'Bearer local-demo-token'; }
 function filteredListings(params) {
   return listings().filter(item => {
     const query = (params.get('q') || '').toLowerCase();
@@ -90,8 +128,12 @@ async function api(req, res, url) {
   if (req.method === 'POST' && route === '/auth/login') {
     const input = await body(req);
     if (!input.email || !input.password) return json(res, 400, { detail: 'Email and password are required.' });
-    const role = input.email.toLowerCase().startsWith('admin') ? 'admin' : 'partner';
-    return json(res, 200, { token: 'local-demo-token', user: { id: role === 'admin' ? 'local-admin' : 'local-partner', name: role === 'admin' ? 'Local Admin' : 'Local Partner', email: input.email, role } });
+    const account = ACCOUNTS.find(acc => acc.email === String(input.email).toLowerCase());
+    if (!account || !safeEqual(input.password, account.password)) {
+      return json(res, 401, { detail: 'Invalid email or password.' });
+    }
+    const token = createSession({ id: account.id, name: account.name, email: account.email, role: account.role });
+    return json(res, 200, { token, user: { id: account.id, name: account.name, email: account.email, role: account.role } });
   }
   if (req.method === 'POST' && route === '/inquiries') {
     const input = await body(req);
@@ -104,7 +146,9 @@ async function api(req, res, url) {
     const input = await body(req);
     return json(res, 200, { reply: `Thank you for your message${input.message ? `: “${input.message}”` : ''}. Our local concierge demo can help you explore Indonesian products, experiences, and partnerships.` });
   }
-  if (!authorized(req)) return json(res, 401, { detail: 'Sign in to use this local dashboard.' });
+  const currentUser = sessionUser(req);
+  if (!currentUser) return json(res, 401, { detail: 'Sign in to use this dashboard.' });
+  if (route.startsWith('/admin/') && currentUser.role !== 'admin') return json(res, 403, { detail: 'Admin access required.' });
   if (req.method === 'GET' && route === '/admin/stats') return json(res, 200, { listings: listings().length, inquiries: inquiries().length, partners: 1, published: listings().filter(x => x.is_published).length });
   if (req.method === 'GET' && route === '/admin/listings') return json(res, 200, listings());
   if (req.method === 'GET' && route === '/admin/inquiries') return json(res, 200, inquiries());
