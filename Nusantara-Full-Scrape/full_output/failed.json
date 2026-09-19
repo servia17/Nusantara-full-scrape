@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier"
+  }
+]

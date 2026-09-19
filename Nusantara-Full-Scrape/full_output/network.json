@@ -1,0 +1,1290 @@
+[
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/",
+    "status": 200,
+    "resource_type": "document",
+    "content_type": "text/html; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://assets.emergent.sh/scripts/emergent-main.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/array.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/static/js/bundle.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/array/phc_DbsPb39SRc8z3EiQ6Dhj6ikv4H4rTKcht9d4sZSesceP/config.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.prod-images.emergentagent.com/jobs/c67fdad2-760c-491a-884f-ed6064f8a3d8/images/744f3e8051419d8940664d0e140bfef2b3fb2d52d05623527fc2befddb6d37fc.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/web-vitals.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/dead-clicks-autocapture.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/surveys.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/posthog-recorder.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1660796334938-cf0b03be7e6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxjcmFmdHNtYW5zaGlwJTIwYXJ0aXNhbnxlbnwwfHx8fDE3ODY1MjIwODh8MA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "blob:https://nusantara-hub-8.preview.emergentagent.com/c676b365-b2db-4457-a0dc-2264fdaf6759",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1775129893532-ce2d412581f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxiYW1ib28lMjBhcmNoaXRlY3R1cmUlMjByZXNvcnR8ZW58MHx8fHwxNzg2NTIyMDg4fDA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBhaXxlbnwwfHx8fDE3ODY1MjIwODh8MA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/images/jetcar-water.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/images/jetcar-night.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/flags/?v=2&compression=base64",
+    "status": 200,
+    "resource_type": "fetch",
+    "content_type": "application/json",
+    "method": "POST"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1698417931857-23a611285438?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxiYW1ib28lMjBmdXJuaXR1cmUlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHx8fDE3ODY1MjI1OTR8MA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHx0cm9waWNhbCUyMGx1eHVyeSUyMHJlc29ydCUyMGJlYWNofGVufDB8fHx8MTc4NjUyMjA4OHww&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://static.prod-images.emergentagent.com/jobs/c67fdad2-760c-491a-884f-ed6064f8a3d8/images/e3029fba92c8a29d33f21c3abbca3cc10a1d4917bd34b7f1a34418ba0d2ca575.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/explore",
+    "status": 200,
+    "resource_type": "document",
+    "content_type": "text/html; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://assets.emergent.sh/scripts/emergent-main.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/array.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/web-vitals.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/dead-clicks-autocapture.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/posthog-recorder.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/array/phc_DbsPb39SRc8z3EiQ6Dhj6ikv4H4rTKcht9d4sZSesceP/config.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "blob:https://nusantara-hub-8.preview.emergentagent.com/270b09a3-4447-4833-b546-601ff5d81c0f",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/surveys.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/flags/?v=2&compression=base64",
+    "status": 200,
+    "resource_type": "fetch",
+    "content_type": "application/json",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/static/js/bundle.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings/meta",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHx0cm9waWNhbCUyMGx1eHVyeSUyMHJlc29ydCUyMGJlYWNofGVufDB8fHx8MTc4NjUyMjA4OHww&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1775129893532-ce2d412581f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxiYW1ib28lMjBhcmNoaXRlY3R1cmUlMjByZXNvcnR8ZW58MHx8fHwxNzg2NTIyMDg4fDA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1679958854536-a1bb774ef8ab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwxfHxiYW1ib28lMjBoYW5kaWNyYWZ0JTIwYmFza2V0JTIwYXJ0aXNhbnxlbnwwfHx8fDE3ODY1MjI1OTR8MA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings/meta",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1698417931857-23a611285438?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxiYW1ib28lMjBmdXJuaXR1cmUlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHx8fDE3ODY1MjI1OTR8MA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/images/jetcar-water.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/innovation",
+    "status": 200,
+    "resource_type": "document",
+    "content_type": "text/html; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://assets.emergent.sh/scripts/emergent-main.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/array.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/web-vitals.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/dead-clicks-autocapture.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/posthog-recorder.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/array/phc_DbsPb39SRc8z3EiQ6Dhj6ikv4H4rTKcht9d4sZSesceP/config.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "blob:https://nusantara-hub-8.preview.emergentagent.com/c359f309-f8c8-4f05-8ad8-18e522a91f3c",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/surveys.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/flags/?v=2&compression=base64",
+    "status": 200,
+    "resource_type": "fetch",
+    "content_type": "application/json",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/static/js/bundle.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings?category=Indonesian+Innovation",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/images/jetcar-night.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings?category=Indonesian+Innovation",
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/images/jetcar-water.jpeg",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/craft",
+    "status": 200,
+    "resource_type": "document",
+    "content_type": "text/html; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://assets.emergent.sh/scripts/emergent-main.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/array.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/web-vitals.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/dead-clicks-autocapture.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/posthog-recorder.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/array/phc_DbsPb39SRc8z3EiQ6Dhj6ikv4H4rTKcht9d4sZSesceP/config.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+    "status": 200,
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "method": "GET"
+  },
+  {
+    "url": "blob:https://nusantara-hub-8.preview.emergentagent.com/cf0c06af-d71d-48fa-9f1e-7e3c2bcfeb87",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/static/1.417.2/surveys.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "method": "GET"
+  },
+  {
+    "url": "https://ap.emergent.sh/flags/?v=2&compression=base64",
+    "status": 200,
+    "resource_type": "fetch",
+    "content_type": "application/json",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/static/js/bundle.js",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1775129893532-ce2d412581f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxiYW1ib28lMjBhcmNoaXRlY3R1cmUlMjByZXNvcnR8ZW58MHx8fHwxNzg2NTIyMDg4fDA&ixlib=rb-4.1.0&q=85",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings?category=Indonesian+Craft",
+    "status": 502,
+    "resource_type": "xhr",
+    "content_type": "application/json; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/api/listings?category=Indonesian+Craft",
+    "status": 502,
+    "resource_type": "xhr",
+    "content_type": "application/json; charset=utf-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/experiences",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/concierge",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/about",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/listing/bamboo-furniture-collection",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/listing/jetcar",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/listing/madutiga-beach-resort",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/request-quote",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/partner",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/listing/bamboo-architecture-structures",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/listing/indonesian-bamboo-handicrafts",
+    "status": 502,
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+    "status": 200,
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/styles/main.css",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-browser.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-cloud.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-ok.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-error.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/images/cf-icon-server.png",
+    "status": 200,
+    "resource_type": "image",
+    "content_type": "image/png",
+    "method": "GET"
+  },
+  {
+    "url": "https://nusantara-hub-8.preview.emergentagent.com/cdn-cgi/rum?",
+    "status": 204,
+    "resource_type": "xhr",
+    "content_type": "text/plain",
+    "method": "POST"
+  }
+]
