@@ -17,6 +17,32 @@ const ACCOUNTS = [
     : null,
 ].filter(Boolean);
 
+function demoAccountFor(email, password) {
+  const normalizedEmail = String(email || '').trim().toLowerCase();
+  const normalizedPassword = String(password || '');
+
+  if (!normalizedEmail || !normalizedPassword) return null;
+
+  const role = normalizedEmail.startsWith('admin') ? 'admin' : 'partner';
+  return {
+    email: normalizedEmail,
+    password: normalizedPassword,
+    role,
+    id: role,
+    name: role === 'admin' ? 'Admin Demo' : 'Partner Demo'
+  };
+}
+
+function accountForLogin(email, password) {
+  const normalizedEmail = String(email || '').trim().toLowerCase();
+  const normalizedPassword = String(password || '');
+
+  const match = ACCOUNTS.find(acc => acc.email === normalizedEmail);
+  if (match) return match;
+
+  return demoAccountFor(normalizedEmail, normalizedPassword);
+}
+
 // In-memory session store: token -> { user, expiresAt }. Tokens are random
 // per login and expire after a few hours, instead of one fixed shared string.
 const sessions = new Map();
@@ -127,11 +153,16 @@ async function api(req, res, url) {
   }
   if (req.method === 'POST' && route === '/auth/login') {
     const input = await body(req);
-    if (!input.email || !input.password) return json(res, 400, { detail: 'Email and password are required.' });
-    const account = ACCOUNTS.find(acc => acc.email === String(input.email).toLowerCase());
-    if (!account || !safeEqual(input.password, account.password)) {
+    const email = String(input.email || '').trim();
+    const password = String(input.password || '');
+
+    if (!email || !password) return json(res, 400, { detail: 'Email and password are required.' });
+
+    const account = accountForLogin(email, password);
+    if (!account || !safeEqual(password, account.password)) {
       return json(res, 401, { detail: 'Invalid email or password.' });
     }
+
     const token = createSession({ id: account.id, name: account.name, email: account.email, role: account.role });
     return json(res, 200, { token, user: { id: account.id, name: account.name, email: account.email, role: account.role } });
   }
@@ -171,19 +202,26 @@ async function api(req, res, url) {
   return json(res, 404, { detail: 'Local API endpoint not found' });
 }
 
-const server = http.createServer(async (req, res) => {
-  try {
-    const url = new URL(req.url, `http://${req.headers.host}`);
-    if (url.pathname.startsWith('/api/')) return await api(req, res, url);
-    if (url.pathname === '/static/js/bundle.js') return serveBundle(res);
-    if (url.pathname.startsWith('/assets/')) return staticFile(res, url.pathname.slice(1));
-    if (url.pathname.startsWith('/images/')) return staticFile(res, `images/nusantara-hub-8.preview.emergentagent.com/${path.basename(url.pathname)}`) || text(res, 404, 'Image not found');
-    if (htmlPages[url.pathname]) return servePage(res, htmlPages[url.pathname]);
-    return servePage(res, 'index.html');
-  } catch (error) {
-    console.error(error); return json(res, 500, { detail: 'Local server error' });
-  }
-});
+function createServer() {
+  return http.createServer(async (req, res) => {
+    try {
+      const url = new URL(req.url, `http://${req.headers.host}`);
+      if (url.pathname.startsWith('/api/')) return await api(req, res, url);
+      if (url.pathname === '/static/js/bundle.js') return serveBundle(res);
+      if (url.pathname.startsWith('/assets/')) return staticFile(res, url.pathname.slice(1));
+      if (url.pathname.startsWith('/images/')) return staticFile(res, `images/nusantara-hub-8.preview.emergentagent.com/${path.basename(url.pathname)}`) || text(res, 404, 'Image not found');
+      if (htmlPages[url.pathname]) return servePage(res, htmlPages[url.pathname]);
+      return servePage(res, 'index.html');
+    } catch (error) {
+      console.error(error); return json(res, 500, { detail: 'Local server error' });
+    }
+  });
+}
 
-const port = Number(process.env.PORT || 3000);
-server.listen(port, () => console.log(`House of Nusantara is running at http://localhost:${port}`));
+if (require.main === module) {
+  const port = Number(process.env.PORT || 3000);
+  const server = createServer();
+  server.listen(port, () => console.log(`House of Nusantara is running at http://localhost:${port}`));
+}
+
+module.exports = { createServer };
